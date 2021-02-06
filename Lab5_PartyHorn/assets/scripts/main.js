@@ -70,16 +70,8 @@ partyDom.onclick = function () {
 honkDom.onclick = function (event) {
     event.preventDefault();
 
-    if (image_num == 1){
-        audio.volume = value / 100;
-        audio.play();
-    } else if (image_num == 2){
-        audio.volume = value / 100;
-        audio.play();
-    } else {
-        audio.volume = value / 100;
-        audio.play();
-    }
+    audio.volume = value / 100;
+    audio.play();
 }
 
 
